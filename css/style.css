@@ -187,24 +187,24 @@ h1,h2,h3 {
 }
 
 @media (min-width: 768px) {
- 
-}
-
+  
 .servicios {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /*33.3% 33.3% 33.3%; es lo mismo o usar 1fr 1fr 1fr*/
     column-gap: 10px; /*separacion entre las columnas*/
+   
     
 
     /* grid: 200px 800px / 300px 300px;   es lo mismos que lo de arriba*/
 }
-
-
-.servicio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
+
+.servicio  { display: flex;
+flex-direction: column;
+align-items: center; }
+
+
+
 .servicio h3 {
    color: var(--secundario);
    font-weight: normal;
